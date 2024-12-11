@@ -1,0 +1,35 @@
+<suite name ="TestSuite" >
+    <test name = "BothCorrect">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name = "sample.BothCorrect"/>
+        </classes>
+    </test>
+
+    <test name ="BothIncorrect">
+        <parameter name="username" value="Admin1"/>
+        <parameter name="password" value="admin1"/>
+        <classes>
+            <class name = "sample.BothIncorrect"/>
+        </classes>
+    </test>
+
+    <test name ="CorrectUsername">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin"/>
+        <classes>
+            <class name = "sample.CorrectUsername"/>
+        </classes>
+    </test>
+
+    <test name ="CorrectPassword">
+        <parameter name="username" value="Admin1"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name = "sample.CorrectPassword"/>
+        </classes>
+    </test>
+</suite>
+
+
